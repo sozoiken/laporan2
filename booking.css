@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: url('asset/background-bromo.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Atur latar belakang untuk seluruh section */
+#booking {
+  position: relative;
+  padding: 50px 20px;
+  background: rgba(95, 107, 230, 0.9); /* Latar belakang form transparan */
+  max-width: 600px; /* Batas lebar form */
+  margin: auto; /* Tengah halaman */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Pastikan gambar latar belakang tidak terganggu */
+.layar-penuh {
+  position: relative;
+  background-image: url('asset/your-background-image.jpg'); /* Ganti dengan lokasi gambar Anda */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Pastikan gambar mencakup seluruh viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#booking h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ecdbdb;
+}
+
+/* Style untuk input dan textarea */
+#booking input,
+#booking select,
+#booking textarea {
+  width: 100%; /* Sesuai dengan lebar kontainer */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Style untuk tombol submit */
+#booking button {
+  width: 100%;
+  padding: 10px 0;
+  background: #7dc706;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+#booking button:hover {
+  background: #0056b3;
+}
+
+.tombol-kembali {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
